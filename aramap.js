@@ -277,6 +277,7 @@ map.getItemObjectIdFromCor = function($x,$y){
         {
             var sar2 = map.elementData[i].x+'-'+map.elementData[i].y;
 
+            
             //console.log(sval2,sar2)
 
             if (sar2 == sval2) 
