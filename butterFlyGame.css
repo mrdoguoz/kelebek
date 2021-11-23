@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 2, 2016, 1:42:18 PM
+    Author     : bug7a
+*/
+
+body {
+    
+    margin-top: 0px;
+    margin-left: 0px;
+
+    background-color: beige;
+    
+    font-family: Arial;
+    
+}
+
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+#pageContainer{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height:100%;
+
+ 
+}
+
+#gameInfo{
+
+    position:absolute;
+    left: 240px;
+    bottom: 232px;
+    color: red;
+    top: calc(100%+10px);
+
+}
+
+#gameTitle{
+
+    position: absolute;
+    left:900px;
+    top:30px;
+
+
+}
+
+#objectButterFlyGame {
+    background-position: absolute;
+
+    background-image: url("asset/background.test.png");
+    background-repeat: no-repeat;
+    
+    width: 832px;
+    height: 448px;
+
+
+   
+}
+
+
+.objectsStyle{
+
+    position: absolute;
+
+   
+
+    
+}
+
+.foodValue{
+
+    color: blue;
+    font-size: small;
+    font-family: Arial;
+    font-stretch: narrower;
+    font-weight: bold;
+
+}
+
+
+#butterflyLifeBar {
+    
+    position: absolute;
+    padding: 3px;
+    width: 150px;
+    top:10px;
+    left: 645px;
+    background-color: rgb(136, 116, 192);
+    
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    
+    
+}
+
+#butterflyLifeBarStatus {
+    
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color:brown;
+    
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: white;
+    
+    
+}
+
+#playerKey{
+    position: absolute;
+    left: 32px;
+    top: 0px;
+    display:none;
+}
+
+#msj{
+    position: absolute;
+    display:none;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding-top: 0%;
+    /*border: 1px solid red;*/ 
+    padding-left: 0%;
+    font-size: 12px;
+    font-weight:bold; 
+    
+}
+
+
+
